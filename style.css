@@ -1,0 +1,73 @@
+.first{
+    background-color: yellow;
+    width: 50%;
+    border: 1px solid black;
+    transition-duration: 2s;
+}
+.first:hover {
+    transform: rotate(180deg);
+}
+.square{
+    
+    height: 50px;
+    width: 50px;
+    background:red;
+    /* transform: rotate(180deg);
+    transition-delay: 1s; */
+    
+}
+.Animation{
+    height: 50px;
+    width: 50px;
+    background:green;
+    margin-top: 10px;
+}
+.Animation:hover{
+    height: 100px;
+    width: 100px;
+    transform: rotate(180deg);
+    transition-delay: 1s;
+    transition-duration: 2s;
+}
+.q3_img_main img {
+    width: 200px;
+    height: 200px;
+}
+.q3_img_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.q3_img1:hover {
+    filter: grayscale(100%);
+}
+.q3_img2:hover {
+    filter: blur(8px);    
+}
+.q3_img3:hover {
+    opacity: 0.4;  
+}
+.image gallery {
+    width: 100px;
+    height: 100px;
+}
+.image gallery{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (min-width:800px){
+
+    }
+    
+    @media (min-width:300px) and (max-width:800px){
+        
+    } 
+
+    @media (max-width:300px){
+        
+    } 
+
+
+
+}
